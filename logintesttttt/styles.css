@@ -1,0 +1,95 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(0deg, #6A82FB, #FC5C7D); /* Placeholder for background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: #FFFFFF ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(88, 4, 130, 0.47)c;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+}
+
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-icon img {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+}
+
+.input-group input {
+    width: 250px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.checkbox-group {
+    align-self: flex-start;
+    margin-bottom: 20px;
+
+}
+
+.forgot-password {
+    align-self: flex-end;
+    margin-bottom: 20px;
+    color: #6A82FB;
+    text-decoration: none;
+}
+
+.login-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6A82FB;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-button:hover {
+    background-color: #FC5C7D;
+    box-shadow: 0 0 5px #FC5C7D;
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.icon-container {
+    width: 70px;
+}
+
+image {
+    padding: auto;
+}
+
+.forgot-password {
+    position: relative;
+    top: -38px;
+}
